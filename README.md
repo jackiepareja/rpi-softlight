@@ -1,5 +1,5 @@
 # Potentiometer & LED (SmartLight)
-![Label](img.shields.io/badge/IoT-Smart%20Light-blue)
+![StackShare](https://img.shields.io/badge/IoT-Smart%20Light-blue)
 
 > Use the ADC Module to read ADC value of potentiometers to control the brightness of LED.
 
