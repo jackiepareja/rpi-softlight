@@ -49,6 +49,7 @@
 5. Execute the code:
     `python adc.py`
 
-### Contact: www.jackiepareja.com :pin:
 6. After the program is executed, you can adjust the potentiometer and the terminal will printout the voltage value and converted digital content.
+
+:pushpin: www.jackiepareja.com
     
