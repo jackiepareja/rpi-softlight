@@ -7,15 +7,15 @@ adc = ADCDevice()
 
 def setup():
     global adc
-    if(adc.dectectI2C(0x48)):
+    if(adc.detectI2C(0x48)):
         adc = PCF8591()
     else:
         print("No correct I2C address is found");
         exit(-1)
     global p
-    GPIO.setmod(GPIO.BOARD)
+    GPIO.setmode(GPIO.BOARD)
     GPIO.setup(ledPin,GPIO.OUT)
-    p = GPIO.PWN(ledPin, 1000)
+    p = GPIO.PWM(ledPin, 1000)
     p.start(0)
 
 def loop():
